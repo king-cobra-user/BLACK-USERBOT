@@ -1,4 +1,4 @@
-<h3 align="center"><b>Owner <a href="https://telegram.dog/koi_nhi_apna">꧁༒⫷🆅🅸🅽🅲🅴🅽🆉🅾⫸༒꧂</a></b></h3>
+<h3 align="center"><b>Owner <a href="https://t.me/black_user_bot_B</a></b></h3>
 <br>
 <p align="center">
    <a href="https://github.com/king-cobra-user/BLACK-USERBOT"><img src="https://telegra.ph/file/1ce15cac96b30da9eb78f.jpg" alt="SKYLORD" width=400px></a>
