@@ -3,7 +3,7 @@ from userbot import CMD_HELP, CMD_HELP_BOT, COMMAND_HAND_LER
 
 class CmdHelp:
     """
-    hehehhehehheehee skylord here.........
+    hehehhehehheehee  black here.........
     """
 
     FILE = ""
@@ -58,34 +58,34 @@ class CmdHelp:
         Brings results.
         """
 
-        result = f"**📗 File :** `{self.FILE}`\n"
+        result = f"**ðŸ“— File :** `{self.FILE}`\n"
         if self.WARNING == "" and self.INFO == "":
-            result += f"**⬇️ Official:** {'✄1�7' if self.IS_OFFICIAL else '❄1�7'}\n\n"
+            result += f"**â¬‡ï¸ Official:** {'âœ„1¤7' if self.IS_OFFICIAL else 'â„1¤7'}\n\n"
         else:
-            result += f"**⬇️ Official:** {'✄1�7' if self.IS_OFFICIAL else '❄1�7'}\n"
+            result += f"**â¬‡ï¸ Official:** {'âœ„1¤7' if self.IS_OFFICIAL else 'â„1¤7'}\n"
 
             if self.INFO == "":
                 if not self.WARNING == "":
-                    result += f"**⚠️ Warning :** {self.WARNING}\n\n"
+                    result += f"**âš ï¸ Warning :** {self.WARNING}\n\n"
             else:
                 if not self.WARNING == "":
-                    result += f"**⚠️ Warning :** {self.WARNING}\n"
-                result += f"**ℹ️ Info:** {self.INFO}\n\n"
+                    result += f"**âš ï¸ Warning :** {self.WARNING}\n"
+                result += f"**â„¹ï¸ Info:** {self.INFO}\n\n"
 
         for command in self.COMMANDS:
             command = self.COMMANDS[command]
             if command["params"] == None:
                 result += (
-                    f"**🛠 Command :** `{COMMAND_HAND_LER[:1]}{command['command']}`\n"
+                    f"**ðŸ›  Command :** `{COMMAND_HAND_LER[:1]}{command['command']}`\n"
                 )
             else:
-                result += f"**🛠 Command :** `{COMMAND_HAND_LER[:1]}{command['command']} {command['params']}`\n"
+                result += f"**ðŸ›  Command :** `{COMMAND_HAND_LER[:1]}{command['command']} {command['params']}`\n"
 
             if command["example"] == None:
-                result += f"**💬 Details :** `{command['usage']}`\n\n"
+                result += f"**ðŸ’¬ Details :** `{command['usage']}`\n\n"
             else:
-                result += f"**💬 Details :** `{command['usage']}`\n"
-                result += f"**⌨️ For Example :** `{COMMAND_HAND_LER[:1]}{command['example']}`\n\n"
+                result += f"**ðŸ’¬ Details :** `{command['usage']}`\n"
+                result += f"**âŒ¨ï¸ For Example :** `{COMMAND_HAND_LER[:1]}{command['example']}`\n\n"
         return result
 
     def add(self):
